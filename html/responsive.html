@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Albums</title>
+    <style>
+      .container {
+        padding: 20px;
+        width: 95%;
+        height: 100px;
+        margin: 1px;
+      }
+      .container div {
+        float: left;
+        width: 25%;
+        height: inherit;
+        text-align: center;
+      }
+      .div {
+        float: left;
+      }
+      .box1 {
+        color: #e67ef6;
+        background-color: #5e1717;
+      }
+      .box2 {
+        color: #ccc8c8;
+        background-color: #7708d9;
+      }
+      .box3 {
+        color: #c6ced4;
+        background-color: #0c0101;
+      }
+      .box4 {
+        color: #09ce8f;
+        background-color: #ad0491;
+      }
+      @media screen and (max-width: 600px) {
+        .container div {
+          width: 50%;
+          height: inherit;
+        }
+        .container {
+          height: 200px;
+          padding: 20px;
+        }
+      }
+      @media screen and (max-width: 400px) {
+        .container div {
+          width: 100%;
+          height: inherit;
+        }
+        .container {
+          height: 200px;
+          padding: 20px;
+        }
+      }
+      .divmain {
+        background-color: #bea779;
+        border: solid 1px #0c0101;
+        border-radius: 5px;
+        /* display: flex; */
+      }
+      .box-set1 {
+        display: flex;
+        /* height: 200px; */
+        /* height: 100%;
+        aspect-ratio: 9/1; */
+      }
+      .box-set2 {
+        display: flex;
+      }
+      .box-set3 {
+        display: flex;
+      }
+      .box {
+        padding: 20px;
+        background-color: #f0eae1;
+        margin: 2px;
+        border-radius: 5px;
+      }
+      .box11 {
+        width: 33.33%;
+      }
+      .box22 {
+        width: 25%;
+      }
+      .box33 {
+        width: 20%;
+      }
+      .item1{
+        width: 33.33%;
+        background-color: #09ce8f;
+        height: 20px;
+      }
+      .item2{
+        width: 25%;
+        background-color: #5e1717;
+        height: 10px;
+      }
+      .item3{
+        width: 20%;
+        background-color: #ad0491;
+        height: 10px;
+      }
+      
+    </style>
+  </head>
+  <body>
+    <h1>Albums:</h1>
+    <div class="container">
+      <div class="box1">
+        <p>Handwritten</p>
+      </div>
+      <div class="box2">
+        <p>shawn-mendes</p>
+      </div>
+      <div class="box3">
+        <p>Illuminate</p>
+      </div>
+      <div class="box4">
+        <p>Wonder</p>
+      </div>
+    </div>
+    <!--flex challenge: 01-->
+    <div class="divmain">
+      <div class="box-set1">
+        <div class="box box11">
+          1
+          <div class="box-set1">
+            <div class="box item1">1</div>
+            <div class="box item1">2</div>
+            <div class="box item1">3</div>
+          </div>
+          <div class="box-set1">
+            <div class="box item2">1</div>
+            <div class="box item2">2</div>
+            <div class="box item2">3</div>
+            <div class="box item2">4</div>
+          </div>
+          <div class="box-set1">
+            <div class="box item3">1</div>
+            <div class="box item3">2</div>
+            <div class="box item3">3</div>
+            <div class="box item3">4</div>
+            <div class="box item3">5</div>
+          </div>
+        </div>
+        <div class="box box11">2</div>
+        <div class="box box11">3</div>
+      </div>
+      <div class="box-set2">
+        <div class="box box22">1</div>
+        <div class="box box22">2</div>
+        <div class="box box22">3</div>
+        <div class="box box22">4</div>
+      </div>
+      <div class="box-set3">
+        <div class="box box33">1</div>
+        <div class="box box33">2</div>
+        <div class="box box33">3</div>
+        <div class="box box33">4</div>
+        <div class="box box33">5</div>
+      </div>
+    </div>
+  </body>
+</html>

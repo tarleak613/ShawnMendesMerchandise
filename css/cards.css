@@ -1,0 +1,181 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  #nav {
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    color: aliceblue;
+    padding: 20px;
+    /* m   */
+  }
+body{
+    
+  }
+  .container{
+    /* min-height: 100vh; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+  .slide-container {
+    background-color: rgb(67, 7, 7);
+    color: rgb(41, 56, 69);
+    max-width: 100%;
+    width: 100%;
+    height: 50vw;
+    padding: 70px 0 0 0;
+  }
+  .slide-content{
+    /* background-image: url("imagesvidoes/6043012.jpg"); */
+    margin: 0 40px;
+  }
+.card{
+    width: 300px;
+    background-color: rgba(0,0, 0, 0.6);
+    border-radius: 5px;
+    /* float: left; */
+    /* margin: 10px; */
+  }
+  .card:hover{
+    transform: scale(1.1);  
+  }
+.card-image {
+    position: relative;
+    height: 20%;
+    width: 100%; 
+    /* border-radius: 50%; */
+  }
+.card-image .card-img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+  .image-content{
+    row-gap: 5px;
+    display: flex;
+    justify-content: center;
+  }
+  .card-content{
+    padding: 20px 14px;
+    color: aliceblue;
+  }
+  .image-content,
+  .card-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* padding: 10px 14px; */
+  }
+  .description{
+    font-size: 14px;
+    text-align: center;
+  }
+  .button{
+    border-radius: 5px;
+    border-color: rgb(5, 13, 13);
+    padding: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  .button:hover{
+    background-color: rgb(0, 0, 0);
+    color: white;
+  }
+  /* .secondview{
+     object-fit: cover; 
+    height: 50%;
+    width: 100%;
+  } */
+  .secondview{
+    color: white;
+    padding-top: 140px;
+    padding-left: 80px;
+    height: 700px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  .description1{
+    float: left;
+    height: 200px;
+    width: 40%;
+    /* background-color: black; */
+  }
+  .desright{
+    float:left;
+    width: 70%;
+    height: 100px;
+    padding-left: 20px;
+    /* background-color: aqua; */
+  }
+  .description2{
+    float: left;
+    height: 450px;
+    width: 55%;
+    /* background-color: black; */
+    padding-left: 120px;
+  }
+  .posleft{
+    height: 400px;
+    width: 25%;
+    background-color: rgb(0, 0, 0);
+    float: left;
+    color: white;
+    /* border: solid 1px white ; */
+
+  }
+  .posmiddle{
+    width: 50%;
+    background-color: rgb(0, 0, 0);
+    color: aliceblue;  
+    /* border: solid 0.5px white ; */
+    float: left;
+  }
+  .r1{
+    padding-top: 15px;
+    text-align: left;
+    height: 50px;
+    /* background-color: rgb(0, 0, 0); */
+    padding-left: 10%;
+  }
+  .r2{
+    height: 300px;
+    /* border-top: solid 0.5px white ; */
+    /* border-bottom: solid 0.5px white ; */
+  }
+  .r22{
+    /* text-align: center; */
+    padding: 20px;
+    padding-left: 30%;
+  }
+  .r3{
+    /* background-color: rgb(0, 0, 0); */
+    text-align: right;
+    height: 50px;
+    padding-top: 15px;
+    padding-right: 10%;
+    /* border: solid 0.5px white ; */
+  }
+  .bsimg{
+    /* position: relative; */
+    /* height: 100%;
+    width: 50%; */
+  }
+  .bsimg ,.img{
+    height: 97%;
+    width:  100%;
+    /* object-fit: cover; */
+  }
+  .posright{
+    height: 400px;
+    width: 25%;
+    background-color: rgb(0, 0, 0);
+    float: left;
+    color: white;
+  }
+  
